@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		504D01EE1447041D0002CA2C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 504D01ED1447041D0002CA2C /* UIKit.framework */; };
+		504D01F01447041D0002CA2C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 504D01EF1447041D0002CA2C /* Foundation.framework */; };
+		504D01F21447041D0002CA2C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 504D01F11447041D0002CA2C /* CoreGraphics.framework */; };
+		504D01F81447041D0002CA2C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 504D01F61447041D0002CA2C /* InfoPlist.strings */; };
+		504D01FA1447041D0002CA2C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 504D01F91447041D0002CA2C /* main.m */; };
+		504D01FE1447041D0002CA2C /* NayshunzAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 504D01FD1447041D0002CA2C /* NayshunzAppDelegate.m */; };
+		504D02011447041D0002CA2C /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 504D01FF1447041D0002CA2C /* MainWindow.xib */; };
+		504D020C144708A80002CA2C /* countries.db in Resources */ = {isa = PBXBuildFile; fileRef = 504D020B144708A80002CA2C /* countries.db */; };
+		504D020F144708F40002CA2C /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 504D020E144708F40002CA2C /* libsqlite3.0.dylib */; };
+		504D021314471FDF0002CA2C /* Nation.m in Sources */ = {isa = PBXBuildFile; fileRef = 504D021214471FDF0002CA2C /* Nation.m */; };
+		504D0217144722B30002CA2C /* NationDetailsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 504D0215144722B20002CA2C /* NationDetailsController.m */; };
+		504D0218144722B30002CA2C /* NationDetailsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 504D0216144722B20002CA2C /* NationDetailsController.xib */; };
+		504D021D144728BF0002CA2C /* NationsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 504D021B144728BF0002CA2C /* NationsController.m */; };
+		504D021E144728BF0002CA2C /* NationsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 504D021C144728BF0002CA2C /* NationsController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		504D01E91447041D0002CA2C /* Nayshunz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nayshunz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		504D01ED1447041D0002CA2C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		504D01EF1447041D0002CA2C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		504D01F11447041D0002CA2C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		504D01F51447041D0002CA2C /* Nayshunz-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Nayshunz-Info.plist"; sourceTree = "<group>"; };
+		504D01F71447041D0002CA2C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		504D01F91447041D0002CA2C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		504D01FB1447041D0002CA2C /* Nayshunz-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Nayshunz-Prefix.pch"; sourceTree = "<group>"; };
+		504D01FC1447041D0002CA2C /* NayshunzAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NayshunzAppDelegate.h; sourceTree = "<group>"; };
+		504D01FD1447041D0002CA2C /* NayshunzAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NayshunzAppDelegate.m; sourceTree = "<group>"; };
+		504D02001447041D0002CA2C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		504D020B144708A80002CA2C /* countries.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = countries.db; sourceTree = "<group>"; };
+		504D020E144708F40002CA2C /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		504D021114471FDF0002CA2C /* Nation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nation.h; sourceTree = "<group>"; };
+		504D021214471FDF0002CA2C /* Nation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Nation.m; sourceTree = "<group>"; };
+		504D0214144722B20002CA2C /* NationDetailsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NationDetailsController.h; sourceTree = "<group>"; };
+		504D0215144722B20002CA2C /* NationDetailsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NationDetailsController.m; sourceTree = "<group>"; };
+		504D0216144722B20002CA2C /* NationDetailsController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NationDetailsController.xib; sourceTree = "<group>"; };
+		504D021A144728BF0002CA2C /* NationsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NationsController.h; sourceTree = "<group>"; };
+		504D021B144728BF0002CA2C /* NationsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NationsController.m; sourceTree = "<group>"; };
+		504D021C144728BF0002CA2C /* NationsController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NationsController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		504D01E61447041D0002CA2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				504D020F144708F40002CA2C /* libsqlite3.0.dylib in Frameworks */,
+				504D01EE1447041D0002CA2C /* UIKit.framework in Frameworks */,
+				504D01F01447041D0002CA2C /* Foundation.framework in Frameworks */,
+				504D01F21447041D0002CA2C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		504D01DE1447041D0002CA2C = {
+			isa = PBXGroup;
+			children = (
+				504D01F31447041D0002CA2C /* Nayshunz */,
+				504D01EC1447041D0002CA2C /* Frameworks */,
+				504D01EA1447041D0002CA2C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		504D01EA1447041D0002CA2C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				504D01E91447041D0002CA2C /* Nayshunz.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		504D01EC1447041D0002CA2C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				504D020E144708F40002CA2C /* libsqlite3.0.dylib */,
+				504D01ED1447041D0002CA2C /* UIKit.framework */,
+				504D01EF1447041D0002CA2C /* Foundation.framework */,
+				504D01F11447041D0002CA2C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		504D01F31447041D0002CA2C /* Nayshunz */ = {
+			isa = PBXGroup;
+			children = (
+				504D021014471FC80002CA2C /* Classes */,
+				504D01FC1447041D0002CA2C /* NayshunzAppDelegate.h */,
+				504D01FD1447041D0002CA2C /* NayshunzAppDelegate.m */,
+				504D01FF1447041D0002CA2C /* MainWindow.xib */,
+				504D0219144728850002CA2C /* Controllers */,
+				504D01F41447041D0002CA2C /* Supporting Files */,
+			);
+			path = Nayshunz;
+			sourceTree = "<group>";
+		};
+		504D01F41447041D0002CA2C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				504D020B144708A80002CA2C /* countries.db */,
+				504D01F51447041D0002CA2C /* Nayshunz-Info.plist */,
+				504D01F61447041D0002CA2C /* InfoPlist.strings */,
+				504D01F91447041D0002CA2C /* main.m */,
+				504D01FB1447041D0002CA2C /* Nayshunz-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		504D021014471FC80002CA2C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				504D021114471FDF0002CA2C /* Nation.h */,
+				504D021214471FDF0002CA2C /* Nation.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		504D0219144728850002CA2C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				504D0214144722B20002CA2C /* NationDetailsController.h */,
+				504D0215144722B20002CA2C /* NationDetailsController.m */,
+				504D0216144722B20002CA2C /* NationDetailsController.xib */,
+				504D021A144728BF0002CA2C /* NationsController.h */,
+				504D021B144728BF0002CA2C /* NationsController.m */,
+				504D021C144728BF0002CA2C /* NationsController.xib */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		504D01E81447041D0002CA2C /* Nayshunz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 504D02041447041D0002CA2C /* Build configuration list for PBXNativeTarget "Nayshunz" */;
+			buildPhases = (
+				504D01E51447041D0002CA2C /* Sources */,
+				504D01E61447041D0002CA2C /* Frameworks */,
+				504D01E71447041D0002CA2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nayshunz;
+			productName = Nayshunz;
+			productReference = 504D01E91447041D0002CA2C /* Nayshunz.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		504D01E01447041D0002CA2C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "EPAM Systems";
+			};
+			buildConfigurationList = 504D01E31447041D0002CA2C /* Build configuration list for PBXProject "Nayshunz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 504D01DE1447041D0002CA2C;
+			productRefGroup = 504D01EA1447041D0002CA2C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				504D01E81447041D0002CA2C /* Nayshunz */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		504D01E71447041D0002CA2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				504D01F81447041D0002CA2C /* InfoPlist.strings in Resources */,
+				504D02011447041D0002CA2C /* MainWindow.xib in Resources */,
+				504D020C144708A80002CA2C /* countries.db in Resources */,
+				504D0218144722B30002CA2C /* NationDetailsController.xib in Resources */,
+				504D021E144728BF0002CA2C /* NationsController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		504D01E51447041D0002CA2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				504D01FA1447041D0002CA2C /* main.m in Sources */,
+				504D01FE1447041D0002CA2C /* NayshunzAppDelegate.m in Sources */,
+				504D021314471FDF0002CA2C /* Nation.m in Sources */,
+				504D0217144722B30002CA2C /* NationDetailsController.m in Sources */,
+				504D021D144728BF0002CA2C /* NationsController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		504D01F61447041D0002CA2C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				504D01F71447041D0002CA2C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		504D01FF1447041D0002CA2C /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				504D02001447041D0002CA2C /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		504D02021447041D0002CA2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		504D02031447041D0002CA2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		504D02051447041D0002CA2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Nayshunz/Nayshunz-Prefix.pch";
+				INFOPLIST_FILE = "Nayshunz/Nayshunz-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		504D02061447041D0002CA2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Nayshunz/Nayshunz-Prefix.pch";
+				INFOPLIST_FILE = "Nayshunz/Nayshunz-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		504D01E31447041D0002CA2C /* Build configuration list for PBXProject "Nayshunz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				504D02021447041D0002CA2C /* Debug */,
+				504D02031447041D0002CA2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		504D02041447041D0002CA2C /* Build configuration list for PBXNativeTarget "Nayshunz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				504D02051447041D0002CA2C /* Debug */,
+				504D02061447041D0002CA2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 504D01E01447041D0002CA2C /* Project object */;
+}
